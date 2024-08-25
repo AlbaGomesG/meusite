@@ -27,10 +27,30 @@ header{
    text-align: center;
 }
 
-.filmes{
+#diretor{
     text-align: center;
 }
 
 h1{
     color: rgb(23, 11, 187);
+}
+
+#informações{
+    text-align: center;
+}
+
+.filmes{
+    text-align: center;
+}
+
+.filmes03{
+    text-align: center;
+}
+
+#licoes{
+    text-align: center;
+}
+
+#criticas{
+    text-align: center;
 }
