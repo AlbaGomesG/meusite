@@ -20,6 +20,18 @@ header{
 
 .links a{
     color: aliceblue;
+    text-decoration: none;
+}
+
+ul {
+    margin: 0%;
+    padding: 0%;
+    list-style-type: none;
+}
+
+ul li{
+    display: inline;
+    margin: 100px;
 }
 
 
@@ -31,7 +43,8 @@ header{
     text-align: center;
 }
 
-h1{
+h1,
+h2{
     color: rgb(23, 11, 187);
 }
 
@@ -53,4 +66,43 @@ h1{
 
 #criticas{
     text-align: center;
+}
+
+form{
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: azure;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px #e99898;
+}
+
+form fieldset{
+    border: 1px solid #faadad;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+form label{
+    display: block;
+    margin-bottom: 5px;
+    color: black;
+}
+form legend{
+    padding: 0 10px;
+    font-weight: bold;
+    color: black;
+}
+
+form button:hover{
+    background-color: #e70101;
+}
+
+form button{
+    cursor: pointer;
+    background-color: #fffb00;
+    color: #000000;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 16px;
 }

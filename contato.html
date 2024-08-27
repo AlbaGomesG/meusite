@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>divertidamente</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Contato</h1>
+
+        <div class="links">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre o diretor</a></li>
+            <li><a href="criticas.html">Críticas</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+        </div>
+    </header>
+
+    <div id="Dúvida">
+        <h1>Tem alguma dúvida ou quer se tornar membro do nosso site para obter mais conteúdos desse tipo?</h1>
+        <h2>Preencha esse formulário!❤</h2>
+
+        <form>
+            <fieldset>
+                <legend>Informações pessoais</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required maxlength="100">
+
+                <label for="email">E-mail:</label>
+                <input type="text" id="email" name="email" placeholder="seuemail@seuemail.com" required maxlength="30">
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="senha" placeholder="Digite sua senha" minlength="8" required maxlength="12">
+
+                <label for="data-de-nascimento">Data de nascimento:</label>
+                <input type="date" id="data-de-nascimento" name="data-de-nascimento" required>
+
+            </fieldset>
+
+            <fieldset>
+                <legend>Preferências</legend>
+                <label>Gênero</label>
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="masculino" name="gênero" value="masculino" required checked>
+
+                <label for="feminino">Feminino</label>
+                <input type="radio" id="feminino" name="gênero" value="feminino" required>
+
+                <label for="outros">Outros</label>
+                <input type="radio" id="outros" name="gênero" value="outros" required>
+
+                <label for="descricao">Descrição:</label>
+                <textarea id="descricao" name="descricao" rows="5" placeholder="Deixe sua mensagem!" required></textarea>
+
+            </fieldset>
+
+        <fieldset>
+            <legend>Enviar Arquivo</legend>
+            <label for="foto">Foto de Perfil:</label>
+            <input type="file" id="foto" name="foto" accept="image/*"
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+
+        </form>
+
+
+
+    </div>
+</body>
+</html>
